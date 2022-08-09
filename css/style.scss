@@ -1,0 +1,30 @@
+$color1 : #faf3f6;
+$color2 :#faf3f6a4;
+$color3 : #c98219;
+
+main{
+    background-image: url(https://voyage-onirique.com/wp-content/uploads/2020/09/Bel-ecureuil-1120x630.jpg);
+    
+}
+
+#jeu{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    
+    article{
+        // position: absolute;
+        // left: 1px;
+        
+        h2{
+             color: $color1;
+            font-weight: 700;
+            font-size: large;
+           // text-shadow: 1px 1px $color1,             -1px -1px $color2;
+        }
+    }
+    img{
+               
+      filter: drop-shadow(5px 5px 0.75rem $color3)
+    }
+}
